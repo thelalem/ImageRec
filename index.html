@@ -31,6 +31,7 @@
                 <p> Drag & Drop or <span>Click to Upload</span></p> 
                 <input type="file" id="file-input" accept="image/*">
             </div>
+            <button class="analyze-btn"><span>Analyze Image</span></button>
         </section>
         <section> 
             <h2> Analysis Results</h2>
@@ -38,6 +39,15 @@
                 <p>No results yet. Upload an image to get started!</p>
             </div>
         </section>
+        <div id="loading-overlay" class="loading-overlay">
+            <section class="dots-container">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </section>
+        </div>
     </main>
     <footer>
         <p>Image Recognition &copy; 2025 | <a href="#"> Privacy Policy</a></p>

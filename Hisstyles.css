@@ -69,20 +69,6 @@ header nav a:hover {
   height: 100%;
   object-fit: cover;
 }
-.profile-container {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.profile-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-}
 
 .history-container {
   max-width: 1200px;
