@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis History</title>
+    <link rel="stylesheet" href="Hisstyles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Image Recognition</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
+                <a href="#">About</a>
+                <a href="profile.html">
+                    <div class="profile-icon">
+                        <img src="image.png" alt="Profile">
+                    </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="history-container">
+            <h2>Analysis History</h2>
+            <p>Here are yout previous image Analysis results: </p>
+        <table class="history-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Labels</th>
+                        <th>Confidence</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="sample.jpg" alt="Sample Image" class="thumbnail"></td>
+                        <td>Car, Road, Sky</td>
+                        <td>98%, 95%, 90%</td>
+                        <td>2024-12-28</td>
+                        <td>
+                            <button class="view-btn">View</button>
+                            <button class="download-btn">Download</button>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Additional rows dynamically populated -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>Image Recognition &copy; 2025 | <a href="#"> Privacy Policy</a></p>
+        <div class="social-icons">
+            <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>

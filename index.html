@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="Indexstyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Image Recongnition</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="history.html">History</a>
+            <a href="#">About</a>
+            <a href="profile.html">
+            <div class="profile-icon">
+                <img src="image.png" alt="Profile">
+            </div>
+            </a>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Analyze Your Images</h2>
+            <p>Upload an image and we will analyze it for you</p>
+            <div class="upload-area">
+                <!-- loading effect and sumbit button -->
+                <p> Drag & Drop or <span>Click to Upload</span></p> 
+                <input type="file" id="file-input" accept="image/*">
+            </div>
+        </section>
+        <section> 
+            <h2> Analysis Results</h2>
+            <div  class="results">
+                <p>No results yet. Upload an image to get started!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Image Recognition &copy; 2025 | <a href="#"> Privacy Policy</a></p>
+        <div class="social-icons">
+            <a href="#"><img src="icons/telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
